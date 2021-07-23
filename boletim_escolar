@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<h1>Olá João ! </h1>
+
+<script>
+function pularLinha() {
+
+	document.write("<br>");
+	document.write("<br>");
+}  
+
+
+ function apresentar(texto) {
+
+     document.write(texto);
+     pularLinha();   
+ }
+
+  apresentar("Sua nota em português foi 79 , " + " em geografia foi 75" + " e em matemática 86 ");
+
+	var português  = 79;
+
+	var geografia  = 75;
+
+	var matemática = 86;
+
+	var média = (português+geografia+matemática)/3 ;
+
+  apresentar("Sua média foi :" + média)
+  apresentar("Se sua média foi superior a 59, você passou de ano !")
+
+</script>
